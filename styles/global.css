@@ -1,0 +1,59 @@
+/* -------------------------------------------------------------
+                            geral
+ -------------------------------------------------------------*/
+
+*{
+    margin:0;
+    padding:0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html{
+    --black:#0D114F;
+    --white:#FAFAFA;
+    --red:#E83F5B;
+    --light-blue:#E0ECFF;
+    --blue:#3485FF;
+    --background:#FBFCFF;
+    --overlay:#040911;
+    --icons-details: #A5B0C1;
+
+    --grey-dark:#4D5E77;
+    --grey-blue:#A1B2CD;
+    --grey-medium:#D3D9E2;
+    --grey-light:#E5EAF1;
+
+    font-size:62.5%;
+}
+
+body{
+    height: 100vh;
+    background:var(--background);
+}
+
+body, button,input, textarea{
+    font-size:clamp(14px , 1.6rem ,  2vw);
+    font-family: 'Open Sans', sans-serif;
+ }
+
+/* -------------------------------------------------------------
+                           
+ -------------------------------------------------------------*/
+.wrapper{
+    width:100%;
+    margin:0 auto;
+}
+ /* label usado para que os motores de buscam identifiquem o que significa o input, ajuda na acessibilidade do site */
+ .sr-only{
+    position:absolute;
+    width:1px;
+    height:1px;
+    padding: 0;
+    clip-path:rect(0,0,0,0);
+    margin:1px;
+    border-width:0;
+    white-space:nowrap;
+    overflow:hidden;
+ }
