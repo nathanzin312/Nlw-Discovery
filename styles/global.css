@@ -39,13 +39,13 @@ body, button,input, textarea{
     font-family: 'Open Sans', sans-serif;
  }
 
-/* -------------------------------------------------------------
-                           
- -------------------------------------------------------------*/
 .wrapper{
     width:100%;
     margin:0 auto;
 }
+/* -------------------------------------------------------------------------
+                           item do input
+---------------------------------------------------------------------------*/
  /* label usado para que os motores de buscam identifiquem o que significa o input, ajuda na acessibilidade do site */
  .sr-only{
     position:absolute;
@@ -58,6 +58,10 @@ body, button,input, textarea{
     white-space:nowrap;
     overflow:hidden;
  }
+
+ /* -------------------------------------------------------------------------
+                           botoes e input
+---------------------------------------------------------------------------*/
 
  input, button ,.button{
     border-radius: 0.8rem;
@@ -104,9 +108,12 @@ button .outlained{
      width:2rem;
  }
 
+ /* -------------------------------------------------------------------------
+                          header
+---------------------------------------------------------------------------*/
+
  .wrapper header{
      width:80%;
-     /* margin-inline: auto; */
      margin:3.5rem auto;
  }
 
@@ -114,3 +121,4 @@ button .outlained{
      width:16.7rem;
  
  }
+
