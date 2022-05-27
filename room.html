@@ -36,11 +36,27 @@
       </header>
 
       <main>
-        <div class="content">
+        <section id="form-questions">
           <h2>Faça sua pergunta</h2>
+          <form action="">
+            <label class="sr-only" for="question"
+              >O que você quer perguntar?</label
+            >
+            <textarea
+              placeholder="O que você quer perguntar?"
+              id="question"
+              name="question"
+            ></textarea>
 
-          <textarea placeholder="O que você quer perguntar?" id> </textarea>
-        </div>
+            <footer>
+              <div>
+                <img src="./assets/cadeado.svg" alt="icone cadeado" /> Esta
+                pergunta é anõnima
+              </div>
+              <button>Enviar</button>
+            </footer>
+          </form>
+        </section>
       </main>
     </div>
   </body>

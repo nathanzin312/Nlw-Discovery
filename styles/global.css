@@ -127,4 +127,5 @@ button .outlained{
     font-size:clamp(20px, 5vw, 2.8rem);
     line-height:4.2rem;
     font-weight: 700;
+    margin-bottom:2.4rem;
  }
