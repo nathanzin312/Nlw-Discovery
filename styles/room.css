@@ -1,0 +1,29 @@
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+header .buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:.8rem;
+}
+
+header .buttons img{
+    width:initial;
+}
+
+header .button{
+    padding-inline:3.2rem;
+}
+
+header .button:nth-child(1){
+    padding-inline:1.5rem;
+}
+
+.content{
+    width:80%;
+    margin:6.4rem auto;
+}
