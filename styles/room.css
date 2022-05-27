@@ -1,9 +1,16 @@
+
+.wrapper{
+    width:min(112.0rem ,80%);
+}
+
+
 /* -------------------------------------------------------------------------
                              header
 ---------------------------------------------------------------------------*/
-header{
+.wrapper.room header{
     display: flex;
     justify-content: space-between;
+    width:100%;
 }
 
 header .buttons{
@@ -30,7 +37,6 @@ header .button:nth-child(1){
 ---------------------------------------------------------------------------*/
 
 #form-questions{
-    width:80%;
     margin:6.4rem auto;
 }
 
@@ -52,19 +58,26 @@ header .button:nth-child(1){
     color:var(--grey-blue);
 }
 
-#form-questions footer{
+#form-questions form footer{
     display:flex;
     align-items: center;
     justify-content: space-between;
 }
 
-#form-questions footer div{
+#form-questions form  footer > div{
     display:flex;
     align-items: center;
     gap:0.6rem;
     color:var(--icons-details);
+
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.2rem;
 }
 
-#form-questions footer button{
+#form-questions form footer button{
+    height:auto;
     padding:.8rem 2.4rem;
+    line-height: 2.4rem;
 }
