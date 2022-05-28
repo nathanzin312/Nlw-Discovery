@@ -113,7 +113,7 @@ button .outlained{
 ---------------------------------------------------------------------------*/
 
  .wrapper header{
-     width:80%;
+    width:min(112.0rem ,80%);
      margin:3.5rem auto;
  }
 
