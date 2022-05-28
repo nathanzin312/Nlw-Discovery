@@ -1,0 +1,144 @@
+
+.wrapper{
+    width:min(112.0rem ,80%);
+}
+
+
+/* -------------------------------------------------------------------------
+                             header
+---------------------------------------------------------------------------*/
+.wrapper.room header{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+}
+
+header .buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:.8rem;
+}
+
+header .buttons img{
+    width:initial;
+}
+
+header .button{
+    padding-inline:3.2rem;
+}
+
+header .button:nth-child(1){
+    padding-inline:1.5rem;
+}
+
+/* -------------------------------------------------------------------------
+                            form questions
+---------------------------------------------------------------------------*/
+
+#form-questions{
+    margin-inline: auto;
+    margin-top:6.4rem;
+    margin-bottom:1.6rem;
+}
+
+#form-questions form{
+    max-width: 100%;
+    padding: 1.6rem;
+    border: 2px solid var(--grey-blue);
+    border-radius: 0px 8px 8px 8px;
+}
+
+#form-questions form textarea{
+    width:100%;
+    background: transparent;
+    outline: none;
+    resize: none;
+}
+
+#form-questions form textarea::placeholder{
+    color:var(--grey-blue);
+}
+
+#form-questions form footer{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#form-questions form  footer > div{
+    display:flex;
+    align-items: center;
+    gap:0.6rem;
+    color:var(--icons-details);
+
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+}
+
+#form-questions form footer button{
+    height:auto;
+    padding:.8rem 2.4rem;
+    line-height: 2.4rem;
+}
+
+
+/* -------------------------------------------------------------------------
+                                  card
+---------------------------------------------------------------------------*/
+
+.cards-conteiner .card{
+    background-color: var(--light-blue);
+    height:min( 13.6rem, 100%);
+    padding: 2.4rem 2.4rem;
+    margin-bottom: .8rem;
+    border-radius: 0px 8px 8px 8px;
+}
+
+.cards-conteiner .card .card-content .user{
+    padding: 1.4rem;
+    background-color: var(--blue);
+    clip-path: circle();
+}
+.cards-conteiner .card .card-content{
+    display:flex;
+    align-items: flex-start;
+    height: auto;
+    gap:1.6rem;
+}
+
+.cards-conteiner .card .card-content p{
+    word-break: break-word;
+    display: flex;
+    align-items: center;
+    min-height:5.2rem;
+}
+
+.cards-conteiner .card .card-action{
+    display: flex;
+    justify-content:flex-end;
+    align-items:flex-end;
+    gap:2.4rem;
+}
+
+.cards-conteiner .card .card-action .icon{
+    display: flex;
+    align-items: center;
+    gap:.8rem;
+}
+
+
+/* -------------------------------------------------------------------------
+                             card read
+---------------------------------------------------------------------------*/
+
+.cards-conteiner .card.read{
+    background-color:var(--grey-light);
+}
+
+
+.cards-conteiner .card.read .card-content .user{
+    background-color: var(--grey-blue);
+}

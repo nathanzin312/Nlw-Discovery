@@ -1,0 +1,131 @@
+/* -------------------------------------------------------------
+                            geral
+ -------------------------------------------------------------*/
+
+*{
+    margin:0;
+    padding:0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html{
+    --black:#0D114F;
+    --white:#FAFAFA;
+    --red:#E83F5B;
+    --light-blue:#E0ECFF;
+    --blue:#3485FF;
+    --background:#FBFCFF;
+    --overlay:#040911;
+    --icons-details: #A5B0C1;
+
+    --grey-dark:#4D5E77;
+    --grey-blue:#A1B2CD;
+    --grey-medium:#D3D9E2;
+    --grey-light:#E5EAF1;
+
+    font-size:62.5%;
+}
+
+body{
+    display:flex;
+    height: 100vh;
+    background:var(--background);
+}
+
+body, button,input, textarea{
+    font-size:clamp(14px , 1.6rem ,  2vw);
+    font-family: 'Open Sans', sans-serif;
+ }
+
+.wrapper{
+    width:100%;
+    margin:0 auto;
+}
+/* -------------------------------------------------------------------------
+                           item do input
+---------------------------------------------------------------------------*/
+ /* label usado para que os motores de buscam identifiquem o que significa o input, ajuda na acessibilidade do site */
+ .sr-only{
+    position:absolute;
+    width:1px;
+    height:1px;
+    padding: 0;
+    clip-path:rect(0,0,0,0);
+    margin:1px;
+    border-width:0;
+    white-space:nowrap;
+    overflow:hidden;
+ }
+
+ /* -------------------------------------------------------------------------
+                           botoes e input
+---------------------------------------------------------------------------*/
+
+ input, button ,.button{
+    border-radius: 0.8rem;
+    height:5rem;
+ }
+
+ input {
+    border: 2px solid var(--grey-blue);
+    padding:0 1.6rem;
+ }
+
+ button, .button{
+     font-family: 'Poppins';
+     font-weight:500;
+     line-height:0;
+
+     display:flex;
+     gap:1rem;
+     align-items:center;
+     justify-content: center;
+
+     color:var(--white);
+     background-color: var(--blue);
+
+     cursor:pointer;
+     transition:filter 0.2s;
+
+     font-size:1.6rem;
+ }
+
+.button.outlined,
+button .outlained{
+    background-color: white;
+    border:2px solid var(--blue);
+    color:var(--blue);
+}
+
+
+ button:hover, .button:hover{
+     filter:brightness(1.3);
+ }
+
+ button > img, .button > img{
+     width:2rem;
+ }
+
+ /* -------------------------------------------------------------------------
+                          header
+---------------------------------------------------------------------------*/
+
+ .wrapper header{
+    width:min(112.0rem ,80%);
+     margin:3.5rem auto;
+ }
+
+ .wrapper header img{
+     width:16.7rem;
+ }
+
+ h2{
+    font-family: 'Poppins', sans-serif;
+    color:var(--black);
+    font-size:clamp(20px, 5vw, 2.8rem);
+    line-height:4.2rem;
+    font-weight: 700;
+    margin-bottom:2.4rem;
+ }

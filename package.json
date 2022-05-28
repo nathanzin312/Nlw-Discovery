@@ -1,0 +1,24 @@
+{
+  "name": "nlw-discovery",
+  "version": "1.0.0",
+  "description": "Projeto desenvolvido para coleta de perguntas anonimas dos usuarios",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathanzin312/Nlw-Discovery.git"
+  },
+  "keywords": [],
+  "author": "Nathan Sanches",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nathanzin312/Nlw-Discovery/issues"
+  },
+  "homepage": "https://github.com/nathanzin312/Nlw-Discovery#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1"
+  }
+}
