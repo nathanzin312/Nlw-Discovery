@@ -31,6 +31,7 @@ main .container{
 main input{
     font-size:1.6rem;
     margin-bottom: 1.8rem;
+    outline:none;
 }
 
 input,button{
