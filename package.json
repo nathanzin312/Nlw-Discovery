@@ -2,9 +2,9 @@
   "name": "nlw-discovery",
   "version": "1.0.0",
   "description": "Projeto desenvolvido para coleta de perguntas anonimas dos usuarios",
-  "main": "index.js",
+  "main": "src/server.js",
   "scripts": {
-    "start": "node src/server.js"
+    "start": "nodemon ."
   },
   "repository": {
     "type": "git",
